@@ -1,10 +1,10 @@
 :root{
-  --primary-color:var(--primary-color);
-  --secondary-color:var(--secondary-color);
-  --bg-primary:var(--bg-primary);
-  --bg-secondary:var(--bg-secondary);
-  --text-primary:var(--text-primary);
-  --text-secondary:var(--text-secondary);
+  --primary-color:#2563eb;
+  --secondary-color:#60a5fa;
+  --bg-primary:#ffffff;
+  --bg-secondary:#f3f4f6;
+  --text-primary:#1f2937;
+  --text-secondary:#6b7280;
   --border-radius-sm:8px;
   --border-radius-md:12px;
   --border-radius-lg:16px;
@@ -111,15 +111,31 @@ main{
   justify-content: center;
   align-items: center;
 
-  overflow-y: scroll;
-  /* background-color: rgba(255,255,255,0.5); */
+  overflow-y: auto;
+  background-color: rgba(0, 0, 0, 0.5);
   text-align: center;
-  /* background-color:white; */
 }
 .popup .content{
   width:100%;
+  max-width: 800px;
   max-height:90vh;
+  padding:var(--spacing-lg);
+  position:relative;
+  background-color: var(--bg-primary);
+  border-radius: var(--border-radius-lg);
+  box-shadow:var(--shadow-lg);
+  overflow-y:auto;
 }
 .content .plot{
   padding: 0 var(--spacing-md);
+}
+.popup .close{
+  font-size:1.5rem;
+  color:var(--text-secondary);
+  background:none;
+  border:none;
+  cursor:pointer;
+}
+.popup .close:hover{
+  color:var(--text-primary);
 }

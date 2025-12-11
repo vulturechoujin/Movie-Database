@@ -4,7 +4,7 @@ import Search from './Search.js';
 import ResultList from './ResultList.js';
 import Popup from './Popup.js'
 function App(){
-    const apiURL = "http://www.omdbapi.com/?apikey=87c9ba8a";
+    const apiURL = "https://www.omdbapi.com/?apikey=87c9ba8a";
     const [state,setState] = useState({
         movieName:"",
         resultList:[],
