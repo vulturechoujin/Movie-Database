@@ -18,7 +18,7 @@ Not every computer can run npm — here are the requirements:
 `npm` comes bundled with Node.js.  
 If Node.js is not installed, npm will not work.
 
-Check if Node.js and npm are installed:
+Check if Node.js and npm are installed using your computer **Terminal**:
 
 ```bash
 node -v
