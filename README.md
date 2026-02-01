@@ -1,12 +1,21 @@
 # Movie Database
 
-A movie database website that retrieves information using APIs from a remote data source.  
+A fully functional website that retrieves information using APIs from a remote data source.  
 It was built using the **React** framework.
+
+**RESTful API Integration:**
+The project retrieves movie data through a RESTful API, showcasing understanding of HTTP methods, API endpoints, asynchronous requests, and JSON data handling. This demonstrates the ability to connect a frontend to dynamic backend data sources.
+**API Potential**
+The project also illustrates the potential to integrate AI-powered features, such as prompting an AI API for movie recommendations, summaries, or content suggestions, showing adaptability to emerging AI technologies.
+**Key Features**
+Fetch and display movies dynamically using a RESTful API
+Search and filter movies by title, genre, or rating
+Display detailed movie information in a user-friendly layout
+Potential integration with AI APIs for enhanced user experiences
 
 **Live Demo:** https://vulturechoujin.github.io/Movie-Database
 
 ---
-
 # Run on Your Computer
 
 ## ✅ Requirements to Run the Project
