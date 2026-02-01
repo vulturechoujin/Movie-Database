@@ -5,6 +5,8 @@ It was built using the **React** framework.
 
 **RESTful API Integration:**
 The project retrieves movie data through a RESTful API, showcasing understanding of HTTP methods, API endpoints, asynchronous requests, and JSON data handling. This demonstrates the ability to connect a frontend to dynamic backend data sources.
+
+
 **API Potential**
 The project also illustrates the potential to integrate AI-powered features, such as prompting an AI API for movie recommendations, summaries, or content suggestions, showing adaptability to emerging AI technologies.
 **Key Features**
